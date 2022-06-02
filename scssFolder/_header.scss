@@ -1,0 +1,30 @@
+.headertotal{
+    height: 80px;
+    border:1px solid red;
+    display: flex;
+    justify-content:space-between;
+    background-color: #EAEDF2;
+    img{
+        margin:5px;
+    }
+    .div2Ul{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        li{
+            margin-right: 20px;
+            button{
+                font-size: 25px;
+                outline:none;
+                border:none;
+                &:hover{
+                    cursor: pointer;
+                    background-color:#6991FF;
+                    border-radius: 5px;
+                }
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.ex3{
+    width: 100%;
+    border:1px solid red;
+    display: flex;
+    .aside2{
+        width: 12%;
+        height: 300px;
+        color:rgb(193, 188, 188);
+        background-color: rgb(25, 24, 24);
+        font-size: 25px;
+        li{
+            padding: 5px;
+            list-style: none;
+            i{
+                margin-right: 10px;
+            }
+        }
+    }
+    .main2{
+        width: 88%;
+        padding: 7px;
+        background-color:green;
+        h2{
+            margin-bottom: 14px;
+        }
+    }
+}

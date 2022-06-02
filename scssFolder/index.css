@@ -1,0 +1,155 @@
+aside {
+  background-color: black;
+  font-size: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+aside ul {
+  list-style: none;
+  cursor: pointer;
+}
+
+aside ul li:nth-child(1) {
+  color: #3F5997;
+}
+
+aside ul li:nth-child(2) {
+  color: #7AACEE;
+}
+
+aside ul li:nth-child(3) {
+  color: #C94A39;
+}
+
+aside ul li:nth-child(4) {
+  color: #577BB5;
+}
+
+aside ul li:nth-child(5) {
+  color: #BB1400;
+}
+
+.headertotal {
+  height: 80px;
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #EAEDF2;
+}
+
+.headertotal img {
+  margin: 5px;
+}
+
+.headertotal .div2Ul {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.headertotal .div2Ul li {
+  margin-right: 20px;
+}
+
+.headertotal .div2Ul li button {
+  font-size: 25px;
+  outline: none;
+  border: none;
+}
+
+.headertotal .div2Ul li button:hover {
+  cursor: pointer;
+  background-color: #6991FF;
+  border-radius: 5px;
+}
+
+main {
+  margin: 10px;
+}
+
+main h1 {
+  margin-bottom: 10px;
+}
+
+main p {
+  margin-bottom: 10px;
+}
+
+.ex3 {
+  width: 100%;
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ex3 .aside2 {
+  width: 12%;
+  height: 300px;
+  color: #c1bcbc;
+  background-color: #191818;
+  font-size: 25px;
+}
+
+.ex3 .aside2 li {
+  padding: 5px;
+  list-style: none;
+}
+
+.ex3 .aside2 li i {
+  margin-right: 10px;
+}
+
+.ex3 .main2 {
+  width: 88%;
+  padding: 7px;
+  background-color: green;
+}
+
+.ex3 .main2 h2 {
+  margin-bottom: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.index {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.index aside {
+  width: 7%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.index header {
+  width: 93%;
+}
+/*# sourceMappingURL=index.css.map */
